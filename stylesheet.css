@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe ui;
+}
+input[type="button"]{
+    width: 110px;
+    height: 90px;
+}
+
+input[type="text"]{
+    width: 99.86%;
+    height: 90px;
+    font-size: 30px;
+    color: black;
+}
+
+table{
+    margin: 200px auto;
+}
+
+#espacio{
+    width: 100%;
+    margin: 0 150px;
+}
+
+input[type="button"]{
+    background-color: white;
+    border: none;
+}
+
+input[type="button"]:hover{
+    border: 1px solid black;
+}
+
+input[type="button"]:focus{
+    outline: 0;
+}
+
+#borrar{
+    background: url(imagenes/borrar1.jpg);
+    background-repeat: no-repeat;
+    background-size:50px;
+    background-position: center;
+    -webkit-transition: background 0.5s;
+}
+
+#borrar:hover{
+    background: url(imagenes/borrar.jpg);
+    background-repeat: no-repeat;
+    background-size:50px;
+    background-position: center;
+    border: none;
+    -webkit-transition: background 0.5s;
+}
+
+#flechaizq:hover, #flechader:hover{
+    font-size: 35px;
+    border: none;
+    -webkit-transition: font-size 0.2s;
+}
+
